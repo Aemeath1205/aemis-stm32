@@ -1,0 +1,38 @@
+﻿# ==== HAL / CMSIS：用 STM32CubeMX 打开 .ioc 重新生成 ====
+Drivers/
+
+# ==== Keil MDK 编译产物 ====
+Objects/
+Listings/
+DebugConfig/
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.bin
+*.map
+*.lst
+*.dep
+*.iex
+*.sct
+*.lnp
+*.htm
+*.uvguix.*
+*.bak
+*.build_log.htm
+
+# ==== STM32CubeIDE ====
+Debug/
+Release/
+.metadata/
+*.launch
+
+# ==== 其它 ====
+*.zip
+*.7z
+
+# ==== 编辑器 / 日志 ====
+.vscode/
+*.log
+*.log.lock
