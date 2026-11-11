@@ -55,7 +55,7 @@ static void MX_ADC3_Init(void);
 static void MX_USART1_UART_Init(void);
 /* USER CODE BEGIN PFP */
 static uint32_t ADC_Code_To_Voltage(uint32_t value);
-static void ADC_Read_Block(ADC_HandleTypeDef* hadc, uint32_t* value);
+0-65 static void ADC_Read_Block(ADC_HandleTypeDef* hadc, uint32_t* value);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
